@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>After Bedtime · a product film</title>
+<meta name="description" content="A 37-second product film from a design case study by Angel Valle Jr. The full case study opens on request.">
+<meta name="author" content="Angel Valle Jr.">
+<meta name="robots" content="noindex, nofollow">
+<meta property="og:type" content="website">
+<meta property="og:title" content="After Bedtime · a product film">
+<meta property="og:description" content="A 37-second product film from a design case study by Angel Valle Jr.">
+<meta property="og:image" content="https://avjcodes.github.io/after-bedtime-film/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#121B25">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23121B25'/%3E%3Cpath d='M12 50 A20 20 0 0 1 52 50' fill='none' stroke='%23F0C27A' stroke-width='4' stroke-linecap='round'/%3E%3Ccircle cx='24' cy='40' r='3.5' fill='%23F0C27A'/%3E%3Ccircle cx='40' cy='40' r='3.5' fill='%23F0C27A'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:ital,wght@0,400;0,600;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,300..500;1,6..72,300..500&display=swap">
+<style>
+/* After Bedtime, the film page. The working prototype and the full case study come off the public
+   site on purpose; they open on request. Palette and type carry over from the study. */
+:root { --night: #121B25; --lamp: #F0C27A; --milk: #F3EDE2; --slate: #97A0A8; }
+* { box-sizing: border-box; }
+html, body { overflow-x: clip; }
+body { margin: 0; background: var(--night); color: var(--milk); font: 400 1.0625rem/1.65 "Atkinson Hyperlegible Next", system-ui, sans-serif; }
+.page { max-width: 920px; margin: 0 auto; padding: clamp(28px, 6vw, 72px) clamp(20px, 5vw, 48px) 72px; }
+.mstrip { margin: 0 0 40px; color: var(--slate); font-size: 0.9375rem; }
+.mstrip b { color: var(--milk); font-weight: 700; }
+h1 { margin: 0 0 12px; max-width: 18ch; font: 300 clamp(2.1rem, 1.3rem + 3.4vw, 3.4rem)/1.12 "Newsreader", serif; letter-spacing: -0.01em; color: var(--milk); text-wrap: balance; }
+h1 em { font-style: italic; color: var(--lamp); }
+.subline { margin: 0 0 40px; max-width: 52ch; color: var(--slate); }
+.film-frame { margin: 0 0 28px; border-radius: 18px; overflow: hidden; border: 1px solid rgba(240, 194, 122, 0.28); background: #000; box-shadow: 0 30px 80px -40px rgba(0, 0, 0, 0.8); }
+.film-frame video { display: block; width: 100%; height: auto; }
+.after { max-width: 56ch; color: var(--slate); }
+.after p { margin: 0 0 16px; }
+.after a { color: var(--lamp); text-underline-offset: 3px; }
+.after a:hover { color: var(--milk); }
+a:focus-visible, video:focus-visible { outline: 2px solid var(--lamp); outline-offset: 3px; }
+.foot { margin-top: 64px; padding-top: 20px; border-top: 1px solid rgba(151, 160, 168, 0.25); color: var(--slate); font-size: 0.875rem; }
+</style>
+</head>
+<body>
+<main class="page">
+  <p class="mstrip">A product film by <b>Angel Valle Jr.</b></p>
+  <h1>The paperwork nobody wants to start, <em>made gentle enough to finish.</em></h1>
+  <p class="subline">Thirty-seven seconds, cut to music. Turn the sound on.</p>
+
+  <figure class="film-frame">
+    <video controls playsinline preload="none" poster="film-poster.jpg" width="1920" height="1080" aria-label="A 37-second film of the intake concept">
+      <source src="film.mp4" type="video/mp4">
+    </video>
+  </figure>
+
+  <div class="after">
+    <p>This film comes from a product design case study: an intake concept where the plan draws itself as a family while you answer, built as a working prototype and then filmed.</p>
+    <p>The full case study and the prototype open on request: <a href="mailto:theangelvallejr@gmail.com">theangelvallejr@gmail.com</a></p>
+  </div>
+
+  <footer class="foot">Angel Valle Jr. · San Francisco · <a href="https://avjcodes.github.io/" style="color: inherit;">avjcodes.github.io</a></footer>
+</main>
+</body>
+</html>
